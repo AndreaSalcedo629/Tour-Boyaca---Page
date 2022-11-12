@@ -1,0 +1,173 @@
+
+Div{
+
+}
+
+.cabeza{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid #fff;
+	margin: auto;
+	background-color: #ffffff; 
+}
+
+.logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left; font-family: Brush Script MT;
+}
+
+.menu{
+	width: 460px;
+	height: 30px;
+	border: 1px solid #ff8080;
+	float: right;
+	margin-top: 40px;
+	background: #ff8080;
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px 15px;
+	border: 0px solid #fff;
+	color: #fff; 
+	float: center; font-family: Gill Sans MT Condensed;
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #ff4d4d;
+	transition: background 1s, color 1s;
+}
+
+.info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #fff;
+	margin-top: 10px; color: 
+}
+
+.izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #fff;
+	float: left;
+	padding: 5px; color: #4682b4;
+}
+
+.der{
+	width: 290px;
+	height: auto; overflow: hidden;
+	border: 1px solid #fff;
+	float: right;
+	color: 
+}
+
+.parrafo{
+	font-family: Trebuchet MS;
+	color: #666666;
+	text-align: justify;
+}
+
+.img0{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+	border-radius: 25px; 
+}
+
+.img1{
+	width: 350px;
+	height: 250px;
+	border-radius: 25px; 
+}
+
+.img2{
+	width: 350px;
+	height: 250px;
+	border-radius: 25px; 
+}
+.img3{
+	width: 300px;
+	height: 300px;
+	border-radius: 25px; 
+}
+.img4{
+	width: 300px;
+	height: 420px;
+	border-radius: 25px; 
+}
+.img5{
+	width: 420px;
+	height: 320px;
+	border-radius: 25px; 
+}
+.img6{
+	width: 100px;
+	height: 100px;
+	border-radius: 25px; 
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+
+.footer, .push {
+min-height: 10%;
+height: auto !important;
+height: 10%;
+margin: 0 auto -4em;
+height: 4em;
+opacity: 0.8;
+background-color: #ccc;
+color: black;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 300px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-pinterest {background: #cc0000;}
+	.social ul li .icon-mail4 {background: #cc3300;}
+	.social ul li .icon-home {background: #006600;}
+ 
+ 
+	.social ul li a:hover {
+		background: #e6ac00; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+.fin{
+	width: 1000px;
+	height: 1000px;
+}
